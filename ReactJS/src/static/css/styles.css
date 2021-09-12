@@ -1,0 +1,329 @@
+#main{
+    width: 100%;
+    min-height: 1000px;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+.app-container.lang-ar .pull-left{
+    float: right !important;
+}
+.app-container.lang-ar .pull-right{
+    float: left !important;
+}
+.app-container.lang-ar .opendata .download-datasets .hint{
+    margin-left: 0px;
+    margin-right: 30px;
+}
+.app-container.lang-ar .rate-actions ul li a em{
+    float: left;
+}
+.app-container.lang-ar .opendata .data-item .badge{
+    left:0;
+    right: auto;
+}
+
+.data-body{
+    width: 100%;
+    min-height: 1000px;
+}
+.opendata-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.opendata {
+    transition: 0.2s;
+}
+.wrapper-categories ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    text-align: center;
+}
+.wrapper-categories ul li{
+    flex-basis: 30%;
+    padding: 10px;
+    background: #fff;
+    border-right: 1px solid #e0dfdf;
+    position: relative;
+    text-align: center;
+}
+.wrapper-categories ul li:hover{
+    background: #efefef;
+    cursor: pointer;
+}
+.wrapper-categories ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    
+}
+.wrapper-categories ul li img{
+    margin-bottom: 10px;
+}
+.wrapper-categories ul li div.files span{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    width: 35px;
+    background: #9d5057;
+    color: #fff;
+}
+.wrapper-categories ul li div.files span.all{
+    background: #606060;
+}
+.wrapper-categories::after{
+    clear: both;
+}
+.opendata .download-datasets{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
+.opendata i.fa{
+    margin-right: 5px;
+}
+.opendata .download-datasets .bulk-download{
+    padding: 5px;
+    background: #9d5057;
+    color: #fff;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+   
+    border-radius: 4px;
+  
+}
+.opendata .download-datasets .hint{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.opendata .data-item{
+    border: 1px solid #efefef;
+    flex-basis: 32%;
+    width: 32%;
+    margin-right: 1%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    position: relative;
+   
+}
+.opendata .data-item h5{
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 21px;
+    width: 80%;
+
+}
+.opendata .data-item small{
+    color: #908f8f;
+}
+.opendata .data-item .downloads{
+    display: flex;
+    margin-top: 10px;
+} 
+.opendata .data-item .downloads div{
+    width: 100%;
+}
+.opendata .data-item .downloads div a{
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.opendata .data-item .badge{
+    width: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: right;
+    background-color: transparent;
+    padding: 0;
+}
+.opendata .data-item .rate-block{
+    margin-top: 15px;
+}
+.opendata .data-item .rate-block .rate-actions{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
+.rate-actions ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.rate-actions ul::after{
+    clear:both;
+}
+.rate-actions ul li{
+    padding: 6px;
+    border: 1px solid #9d5057;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #9d5057;
+    margin-bottom: 0;
+    flex-basis: auto;
+    font-size: 12px;
+    position: relative;
+}
+.rate-actions ul li:hover{
+    border: 1px solid #fff;
+    background-color:#9d5057 ;
+    color: #fff;
+}
+.rate-actions ul li a{
+    display: block;
+    width: 25px;
+    height: 15px;
+    color: #9d5057;
+    float: left;
+    position: relative;
+}
+.rate-actions ul li:hover a{
+    color: #fff;
+}
+.rate-actions ul li span{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #333;
+    float: left;
+}
+.rate-actions ul li:hover span{
+    color: #fff;
+}
+.opendata .data-item .comments-block{
+    margin: 5px;
+}
+.opendata .data-item .comments-block::before{
+    clear: both;
+}
+.opendata .data-item .comments-block textarea{
+    width: 100%;
+    height: 100px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+}
+.opendata .data-item .comments-block button{
+    padding: 1px;
+    border: 1px solid #9d5057;
+    margin-right: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    width: 50px;
+    text-align: center;
+    background: #9d5057;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.opendata .data-item .comments-block button:hover{
+    background: #fff;
+    color: #9d5057;
+}
+.opendata .data-item .comments-block .comments-response{
+    color: #333;
+
+}
+.opendata .data-item .comments-block .comments-response.error{
+    color: #9d5057;
+}
+.opendata .data-item .comments-block .comments-response.success{
+    color: green;
+}
+
+@media screen and (max-width: 990px) {
+    .opendata .data-item .badge{
+        display: none;
+    }
+    .opendata .data-item .rate-block .rate-actions{
+        display: none;
+    }
+}
+
+
+.od-loader {
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .od-loader::after{
+      content: 'Loading...';
+      font-family: Tahoma;
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .od-loader div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #9d5057;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .od-loader div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .od-loader div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .od-loader div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .od-loader div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  
