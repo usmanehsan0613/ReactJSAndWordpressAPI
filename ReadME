@@ -1,0 +1,9 @@
+to interact with wordpress custom REST API 
+NodeJS server listener to listen as an http server
+Install the packages in packages.json file
+change the wordpress URL in src/data/constants.js file
+Deploy wordpress theme files that will register for custom post type and pull data from there.
+Used ACF plugins to add meta data to each post
+ReactApp will parse all the categories, lsiting and meta information 
+Likes & Comments are using post comment feature of wordpress
+Change the Allow-Origins to your safe origin URL at function at themes/inc/my-rest-api/initCors 
