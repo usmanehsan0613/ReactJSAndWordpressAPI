@@ -7,3 +7,4 @@ Used ACF plugins to add meta data to each post
 ReactApp will parse all the categories, lsiting and meta information 
 Likes & Comments are using post comment feature of wordpress
 Change the Allow-Origins to your safe origin URL at function at themes/inc/my-rest-api/initCors 
+In order to incorporate into existing site, Just publish static folder onto static hosting.
